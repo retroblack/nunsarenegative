@@ -10,7 +10,7 @@ html, body{
     width: 100%;
     object-fit: cover;
 }
-#camera--view, #camera--sensor, #camera--output{
+#camera--output{
     transform: scaleX(-1);
 }
 #camera--view {
@@ -18,7 +18,7 @@ html, body{
 }
 #camera--trigger{
     width: 200px;
-    background-color: black;
+    background-color: navy blue;
     color: white;
     font-size: 16px;
     border-radius: 30px;
