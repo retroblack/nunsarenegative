@@ -16,20 +16,32 @@ html, body{
 #camera, #camera--sensor, #camera--output{
   filter: invert(-1);
 }
-#camera--trigger{
-    width: 200px;
-    background-color: navy;
-    color: orange;
-    font-size: 16px;
-    border-radius: 30px;
-    border: none;
-    padding: 15px 20px;
-    text-align: center;
-    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
-    position: fixed;
-    bottom: 30px;
-    left: calc(50% - 100px);
+#text-block {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif; /* You can change the font-family to whatever you prefer */
 }
+
+#name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#info {
+  font-size: 16px;
+  font-style: italic;
+}
+
+#series {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+}
+
 .taken{
     height: 100px!important;
     width: 100px!important;
