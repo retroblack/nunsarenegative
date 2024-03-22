@@ -13,6 +13,9 @@ html, body{
 #camera--view {
     filter: invert(1);
 }
+#camera, #camera--sensor, #camera--output{
+  filter: invert(-1);
+}
 #camera--trigger{
     width: 200px;
     background-color: navy;
